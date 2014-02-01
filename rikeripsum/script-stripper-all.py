@@ -58,7 +58,7 @@ def main():
     stats.sort()
     
     for num_lines, name in stats:
-        print name, ": ", num_lines, "lines parsed"
+        print(name, ": ", num_lines, "lines parsed")
     
 
 

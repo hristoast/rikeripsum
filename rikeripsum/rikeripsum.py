@@ -59,7 +59,7 @@ def load_pickle():
     phrase data should call this if global lines == None.
 
     """
-    f = open(get_data('riker.pickle'))
+    f = open(get_data('riker.pickle'), 'rb')
     return pickle.load(f)
 
 
@@ -80,7 +80,7 @@ def main():
                        help='minimum number of words in the sentence')
 
     args = parser.parse_args()
-    print generate_sentence(args.count)
+    print(generate_sentence(args.count))
 
 
 if __name__ == '__main__': 

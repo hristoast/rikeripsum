@@ -27,7 +27,7 @@ def main():
     pickle_file.close()
 
     for line in lines: 
-        print line
+        print(line)
 
 
 def extract_riker_lines(season_num, filename): 

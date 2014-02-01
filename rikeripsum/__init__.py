@@ -1,5 +1,5 @@
+from . import rikeripsum
 
-import rikeripsum
 
 def main():
     rikeripsum.main()

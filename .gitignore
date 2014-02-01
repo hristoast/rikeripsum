@@ -11,3 +11,5 @@ MANIFEST
 *.pyc
 
 dist/RikerIpsum-1.1.tar.gz
+
+.idea

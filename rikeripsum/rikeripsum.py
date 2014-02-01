@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 import pickle
 import random
 import os
@@ -8,6 +7,7 @@ import argparse
 lines = None
 
 _ROOT = os.path.abspath(os.path.dirname(__file__))
+
 
 def get_data(path):
     return os.path.join(_ROOT, 'data', path)

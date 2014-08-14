@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 import re
-import os, os.path
+import os
+import os.path
 import pickle
+
 
 character = 'RIKER'
 num_words = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven',]

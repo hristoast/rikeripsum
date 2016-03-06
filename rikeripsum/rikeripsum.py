@@ -61,7 +61,9 @@ def load_pickle():
     phrase data should call this if global lines == None.
     """
     f = open(get_data('riker.pickle'), 'rb')
-    return pickle.load(f)
+    loaded_pickle = pickle.load(f)
+    f.close()
+    return loaded_pickle
 
 
 class ImpossibleSentenceError(Exception):
